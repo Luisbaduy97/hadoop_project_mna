@@ -1,0 +1,10 @@
+﻿COLUMN,TYPE,MODE,DESCRIPTION,EXAMPLE
+Nation_ID,String,required,Codigo del pais,mex
+Nation,String,required,Nombre del pais,Mexico
+State_ID,numeric,required,Numero de estado,14
+State,String,required,Nombre del estado,Jalisco
+Municipality_ID,numeric,required,Numero de estado y municipio,14002
+Municipality,String,required,Nombre del municipio,Tequila
+Exports,numeric,required,Total de ventas internacionales del municipio en USD,421096178
+Imports,numeric,required,Total de compras internacionales del municipio en USD,26577561
+Balance,numeric,required,Balance comercial neto del municipio,394518617

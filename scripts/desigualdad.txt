@@ -1,0 +1,3 @@
+data = LOAD 'jalisco/balance.csv' USING PigStorage(',');
+data_mapped = FOREACH data GENERATE $0 AS Nation_ID, $1 AS Nation, $2 AS State_ID, $3 AS State, $4 AS Municipality_ID, $5 AS Municipality, $6 AS gini, $7 AS population;
+dump data_mapped;

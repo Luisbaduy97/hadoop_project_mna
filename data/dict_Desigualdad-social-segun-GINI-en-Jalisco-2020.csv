@@ -1,0 +1,9 @@
+﻿COLUMN,TYPE,MODE,DESCRIPTION,EXAMPLE
+Nation_ID,String,required,Codigo del pais,mex
+Nation,String,required,Nombre del pais,Mexico
+State_ID,numeric,required,Numero de estado,14
+State,String,required,Nombre del estado,Jalisco
+Municipality_ID,numeric,required,Numero de estado y municipio,14002
+Municipality,String,required,Nombre del municipio,Tequila
+GINI,numeric,required,"El coeficiente o índice de Gini, es una medida estadística diseñada para representar la distribución de los ingresos de los habitantes, en concreto, la inequidad entre estos. Índices más cercanos a 0, representan más equidad entre sus habitantes, mientras que valores cercanos a 1, expresan máxima inequidad entre su población.",0.32269001
+Population,numeric,required,Numero de total de habitantes,23175

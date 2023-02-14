@@ -1,0 +1,3 @@
+data = LOAD 'jalisco/uni_salud.csv' USING PigStorage(',');
+data_mapped = FOREACH data GENERATE $0 AS Municipality_ID, $1 AS Municipality, $2 AS Clinics, $3 AS Beds, $4 AS Establishments, $5 AS Population, $6 AS Bed_Average, $7 AS Health_Center_Average;
+dump data_mapped;
